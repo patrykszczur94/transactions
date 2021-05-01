@@ -7,8 +7,13 @@ docker pull mongo
 2. run mongo container
 ```
 docker run -d -p 27017:27017 --name mongodb mongo -v /data/db:/data/db
+
 ```
-#How to run endpoint
+#How to run application
+
+./gradlew bootRun
+
+#How to call endpoint
 
 1. call
    ```
