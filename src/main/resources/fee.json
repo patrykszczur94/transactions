@@ -1,0 +1,22 @@
+[
+  {
+    "_class": "com.ratcoding.transfer.commission.FeeTable",
+    "transaction_value_less_than": 2500,
+    "fee_percentage_of_transaction_value": "2,5"
+  },
+  {
+    "_class": "com.ratcoding.transfer.commission.FeeTable",
+    "transaction_value_less_than": 1000,
+    "fee_percentage_of_transaction_value": "3,5"
+  },
+  {
+    "_class": "com.ratcoding.transfer.commission.FeeTable",
+    "transaction_value_less_than": 10000,
+    "fee_percentage_of_transaction_value": "0,1"
+  },
+  {
+    "_class": "com.ratcoding.transfer.commission.FeeTable",
+    "transaction_value_less_than": 5000,
+    "fee_percentage_of_transaction_value": "1,1"
+  }
+]
